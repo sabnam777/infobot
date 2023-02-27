@@ -7,14 +7,17 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Telegram bot token",
+      "vlue": "5932409230:AAEDKc0qnKR57rNXNWvu6cxmqAzZCAklhx4",
       "required": true
     },
     "DATABASE_URL": {
       "description": "Database URL",
+      "vlue": "mongodb+srv://ticel98214:asdfggjkl@cluster0.hm6jsk4.mongodb.net/?retryWrites=true&w=majority",
       "required": true
     },
     "API_KEY": {
       "description": "API key",
+      "vlue": "18576653",
       "required": true
    }
     },
