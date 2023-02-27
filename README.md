@@ -43,7 +43,15 @@ source venv/bin/activate`
 4. Create a `config.py` file and add your Telegram API key and MongoDB URL:
 `API_KEY = "your_telegram_api_key"
 MONGO_URL = "your_mongodb_url`
+<h3 align="center">
+   ─「 Deploying on Heroku 」─
 
+</h3>
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/sabnam777/infobot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+<h3 align="center">
+━━━━━━━━━━━━━━━━━━━━
 ## Usage
 
 1. Run the bot:
