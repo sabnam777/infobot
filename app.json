@@ -1,0 +1,26 @@
+{
+  "name": "telegram-bot",
+  "description": "A simple Telegram bot with useful features",
+  "repository": "https://github.com/your-username/telegram-bot",
+  "keywords": ["telegram", "bot", "python"],
+  
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram bot token",
+      "required": true
+    },
+    "DATABASE_URL": {
+      "description": "Database URL",
+      "required": true
+    },
+    "API_KEY": {
+      "description": "API key",
+      "required": true
+   }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
