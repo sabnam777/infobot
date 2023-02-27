@@ -52,6 +52,12 @@ MONGO_URL = "your_mongodb_url`
 
 <h3 align="center">
 ━━━━━━━━━━━━━━━━━━━━
+   
+
+</p>
+
+</details>
+
 ## Usage
 
 1. Run the bot:
