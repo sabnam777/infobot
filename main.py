@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # Create bot instance
-bot = telebot.TeleBot('YOUR_BOT_TOKEN')
+bot = telebot.TeleBot('5932409230:AAEDKc0qnKR57rNXNWvu6cxmqAzZCAklhx4')
 
 # Define home page with three buttons
 @bot.message_handler(commands=['start'])
@@ -46,7 +46,7 @@ def donate(message):
     bot.send_photo(message.chat.id, photo_url, caption=caption, reply_markup=markup)
 
 # Broadcast feature for owner
-owner_id = 'YOUR_TELEGRAM_ID'
+owner_id = '5143506371'
 @bot.message_handler(commands=['broadcast'])
 def broadcast(message):
     if message.chat.id == owner_id:
